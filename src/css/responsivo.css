@@ -1,0 +1,43 @@
+@media (max-width: 650px){
+    .cabecalho{
+        padding: 6%;    
+    }
+
+    .cabecalho_menu{
+        gap: 12px;
+        justify-content: center;
+    }
+    
+    .apresentacao{
+       flex-direction: column-reverse;
+    }
+
+    .apresentacao_conteudo {
+        width: auto;
+    } 
+    .apresentacao_titulo_principal{
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    .apresentacao_titulo_principal_about{
+        font-size: 16px;
+    }
+    .apresentacao_titulo_principal_curriculo{
+        font-size: 16px;
+    }
+   
+    .apresentacao_imagem{
+        width: 60%;
+        margin-left: 60px;
+        object-fit: fill;
+    }
+    .container_imagem{ 
+        display: block;
+        justify-content: center;
+        margin-left: 25%;
+        border: 2px solid #FFCAC8;
+        width: 50%;   
+    }
+
+ }
+    
